@@ -1,0 +1,9 @@
+mt server -folder
+
+npm init -y  ->--node initialisation
+
+npm i-> node module install cheyyyan
+
+npm json server package-> search google
+
+npm i json-server@.17.0

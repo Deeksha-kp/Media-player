@@ -1,0 +1,14 @@
+Media player:
+
+react front-end.jsonserver backend
+
+add youtube vdo
+view added youtube vdo
+delete added youtube vdo
+add categories
+delete categories
+add vdo to categories
+view with history
+
+react bootstrap-bootstrap
+https://bootswath.com
