@@ -12,3 +12,24 @@ view with history
 
 react bootstrap-bootstrap
 https://bootswath.com
+
+state lifting
+technique for passing data from child to parent component
+
+react-toastify
+
+session storage and local storage
+-----------------------------
+both are mostlt similer storages provided by browser 
+can store data in string format specificaly  in both
+local storage data renains there if it is not cleared , but session storage data get removed automatically after  a specific amout of time 
+data storage  and acess are similer in implementation in the case of both 
+local storage and sesion storage  are the predifined js objects  that used for handleing both storage
+
+local storage
+-------------
+localStorage .setItem('key)
+
+
+
+deploy cheyyan
