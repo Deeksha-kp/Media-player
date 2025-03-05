@@ -1,25 +1,25 @@
 import axios from "axios";
 
 export const addVideo= async (data) => {
-    return await axios.post("http://localhost:3000/videos", data);
+    return await axios.post("https://media-player-server-1-2yzz.onrender.com/videos", data);
 };
 export const getVideos=async()=>{
-    return await axios.get('http://localhost:3000/videos')
+    return await axios.get('https://media-player-server-1-2yzz.onrender.com/videos')
 }
 export const deleteVideo=async(id)=>{
-    return await axios.delete(`http://localhost:3000/videos/${id}`)
+    return await axios.delete(`https://media-player-server-1-2yzz.onrender.com/videos/${id}`)
 }
 export const addCategory=async(data)=>{
-    return await axios.post("http://localhost:3000/category",data)
+    return await axios.post("https://media-player-server-1-2yzz.onrender.com/category",data)
 }
 export const getCategories=async(data)=>{
-    return await axios.get("http://localhost:3000/category",data)
+    return await axios.get("https://media-player-server-1-2yzz.onrender.com/category",data)
 }
 export const deleteCategory=async(id)=>{
-    return await axios.delete(`http://localhost:3000/category/${id}`)
+    return await axios.delete(`https://media-player-server-1-2yzz.onrender.com/category/${id}`)
 }
 export const addHistory=async(data)=>{
-    return await axios.post(`http://localhost:3000/history`,data)
+    return await axios.post(`https://media-player-server-1-2yzz.onrender.com/history`,data)
 }
 export const getHistory=async()=>{
     return await axios.get(`https://media-player-server-1-2yzz.onrender.com/history`)
