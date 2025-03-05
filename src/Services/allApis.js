@@ -39,3 +39,4 @@ export const registerApi=async(data)=>{
 export const loginApi=async(email,password)=>{
     return await axios.get(`https://media-player-server-1-2yzz.onrender.com/users?email=${email}&password=${password}`)
 }
+
